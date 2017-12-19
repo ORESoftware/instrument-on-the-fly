@@ -1,0 +1,13 @@
+*.log
+node_modules
+.idea
+scripts
+.gitignore
+.npmignore
+
+*.txt
+*.sh
+*.yml
+*.md
+*.ts
+!*.d.ts
