@@ -1,0 +1,33 @@
+{
+  "name": "instrument-on-the-fly",
+  "version": "0.0.1001",
+  "description": "Instrument .js files on the fly with Istanbul",
+  "main": "index.js",
+  "scripts": {
+    "test": "suman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORESoftware/instrument-on-the-fly.git"
+  },
+  "keywords": [
+    "istanbul",
+    "coverage",
+    "nyc",
+    "test",
+    "testing"
+  ],
+  "author": "Olegzandr VD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ORESoftware/instrument-on-the-fly/issues"
+  },
+  "homepage": "https://github.com/ORESoftware/instrument-on-the-fly#readme",
+  "dependencies": {
+    "istanbul": "^0.4.5"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.43",
+    "@types/node": "^8.5.1"
+  }
+}
