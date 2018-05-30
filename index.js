@@ -28,6 +28,7 @@ exports.getStream = function (file) {
                 return t.emit('error', err);
             }
             t.write(String(generatedCode));
+            t.end();
         });
     });
     return t;

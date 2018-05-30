@@ -36,6 +36,7 @@ export const getStream = function (file: string) {
       }
       
       t.write(String(generatedCode));
+      t.end();
       
     });
     
